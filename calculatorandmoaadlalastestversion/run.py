@@ -5,18 +5,38 @@ while True :
         number1 = float(input("Please Enter Number 1 "))
         operation = input("Please Enter operation please select ( + _ - _ * _ / ) ")
         number2 = float(input("Please Enter Number 2 "))
-        if operation == "+" :
-            result = number1 + number2
-            print(float(result))
-        elif operation == "-" :
-            result = number1 - number2
-            print(float(result))
-        elif operation == "*" :
-            result = number1 * number2
-            print(float(result))
-        elif operation == "/" :
-            result = number1 / number2
-            print(float(result))
+        sure = input("Do you have a number 3 ? ")
+        if sure == "yes" :
+            number3 = float(input("Please Enter a number 3 "))
+            if operation == "+" :
+                result = number1 + number2 + number3
+                print(float(result))
+            elif operation == "-" :
+                result = number1 - number2 - number3
+                print(float(result))
+            elif operation == "*" :
+                result = number1 * number2 * number3
+                print(float(result))
+            elif operation == "/" :
+                result = number1 / number2 / number3
+                print(float(result))
+            else :
+                print("I'm sorry it's not supported now please retry")
+        elif sure == "no" :
+            if operation == "+" :
+                result = number1 + number2
+                print(float(result))
+            elif operation == "-" :
+                result = number1 - number2
+                print(float(result))
+            elif operation == "*" :
+                result = number1 * number2
+                print(float(result))
+            elif operation == "/" :
+                result = number1 / number2
+                print(float(result))
+            else :
+                print("I'm sorry it's not supported now please retry")
         else :
             print("I'm sorry it's not supported now please retry")
     elif sure == "m" :
