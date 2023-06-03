@@ -1,0 +1,3 @@
+INT = []
+STR = []
+FLOAT = []
