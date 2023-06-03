@@ -1,3 +1,0 @@
-INT = []
-STR = []
-FLOAT = []
