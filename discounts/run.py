@@ -16,4 +16,4 @@ while True :
     print(f"The number mal discount is {maldis}")
     print(f"The number div discount is {divdis}")
     print("Start Again.....")
-    print("To exit click (ctrl + c)")
+    print("To exit (ctrl + c)")
