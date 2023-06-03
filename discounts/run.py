@@ -15,3 +15,5 @@ while True :
     divdis = numberofdiscount / b2
     print(f"The number mal discount is {maldis}")
     print(f"The number div discount is {divdis}")
+    print("Start Again.....")
+    print("To exit click (ctrl + c)")
